@@ -1,9 +1,12 @@
 # workspace_dio
 Bootcamps da DIO
 
-Desafios
-Certificados
-Links Úteis:
+
+_Desafios
+
+_Certificados
+
+_Links Úteis:
 
 [Sintaxe básica markdow](https://www.markdownguide.org/basic-syntax/)
 
