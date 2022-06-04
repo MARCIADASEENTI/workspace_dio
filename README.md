@@ -2,11 +2,11 @@
 Bootcamps da DIO
 
 
-_Desafios
+Desafios
 
-_Certificados
+Certificados
 
-_Links Úteis:
+Links Úteis:
 
 [Sintaxe básica markdow](https://www.markdownguide.org/basic-syntax/)
 
