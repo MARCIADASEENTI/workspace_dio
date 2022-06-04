@@ -7,4 +7,4 @@ Links Úteis:
 
 [Sintaxe básica markdow](https://www.markdownguide.org/basic-syntax/)
 
-[DIO](https://www.dio.me/)
+![DIO](https://www.dio.me/)
