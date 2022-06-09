@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flexbox - Align self </title>
+    <style>
+         .flex-container {
+             display: flex;
+             border:1px  solid black;
+             margin-bottom: 10px;
+             max-width: 400;
+            
+        }
+        .align-container {
+            align-items: center;
+        }
+         .item {
+            background-color: blueviolet;
+             color: red;
+             font-size: 34px;
+             text-align: center;
+            margin: 5px;
+            }
+
+         .conter {
+             align-self: center;
+         }
+
+         .start {
+             align-self: flex-start;
+         }
+
+         .end {
+             align-self: flex-end;
+         }
+
+         .baseline {
+             align-self: baseline;
+
+         }
+
+         .stretch {
+             align-self: stretch;
+         }
+    </style>
+</head>
+<body>
+<h1>   Auto </h1>
+    <section class="flex-container">
+        <div class="item auto">1</div>
+        <div class="item auto">222222222222</div>
+        <div class="item auto">3</div>
+        <div class="item auto">4</div>
+
+    </section>
+    <h1>   conter </h1>
+    <section class="flex-container">
+        <div class="item center">11111</div>
+        <div class="item startt">2222222</div>
+        <div class="item end">3aaaa</div>
+        <div class="item flex-end">4aaa</div>
+
+    </section>
+</section>
+<h1>   Auto </h1>
+<section class="flex-container">
+    <div class="item auto">1</div>
+    <div class="item auto">2</div>
+    <div class="item auto">3</div>
+    <div class="item auto">4</div>
+
+</section>
+
+
+</body>
+</html>
