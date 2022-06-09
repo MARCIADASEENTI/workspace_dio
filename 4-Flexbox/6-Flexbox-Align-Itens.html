@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align - Itens</title>
+<style>
+
+    .container {
+        max-width: 300px;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .item {
+        background-color: blueviolet;
+        margin: 5px;
+        color: aliceblue;
+        text-align: center;
+        flex: 1;
+    }
+
+    .flex {
+        flex: 1;
+    }
+
+    .center {
+        align-items: center;
+    }
+
+    .stretch {
+    align-items: stretch;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.baseline {
+    align-items: baseline;
+}
+</style>
+</head>
+<body>
+    <p>center </p>
+    <section class="container center  flex">
+        <div class="item">1 Item </div>
+        <div class="item">2 item não deu certo</div>
+        <div class="item">3 item para visualizar o código </div>
+        
+    </section>
+
+    <p> strecth </p>
+    <section class="container  center stretch ">
+        <div class="item">1 Item </div>
+        <div class="item">2 item nao deu certo</div>
+        <div class="item">3 item para visualizar o código </div>
+        
+    </section>
+
+    <p> flex-start </p>
+    <section class="container  center flex-start ">
+        <div class="item">1 Item </div>
+        <div class="item">2 item nao deu certo</div>
+        <div class="item">3 item para visualizar o código </div>
+        
+    </section>
+
+
+    <p> flex-end </p>
+    <section class="container  center flex-end">
+        <div class="item">1 Item </div>
+        <div class="item">2 item nao deu certo</div>
+        <div class="item">3 item para visualizar o código </div>
+        
+    </section>
+
+    <p> base-line</p>
+    <section class="container  center baseline">
+        <div class="item">1 Item </div>
+        <div class="item">2 item nao deu certo</div>
+        <div class="item">3 item para visualizar o código </div>
+        
+    </section>
+
+</body>
+</html>
