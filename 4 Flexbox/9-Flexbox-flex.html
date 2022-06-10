@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex </title>
+    <style>
+        .flex-container {
+            display: flex;
+            margin-bottom: 10px;
+            max-width: 400px;
+            border: 2px solid black;
+
+        }
+
+        .flex-item {
+            background-color: red;
+            color:black;
+            margin: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .flex-1 {
+            flex: 1;
+        }
+
+                /* grow = 1, shrink = 1, basis = 0 */
+
+    
+        .flex-2 {
+            flex: 2;
+        }
+            
+        /* grow = 1, shrink = 1, basis = 0 */
+
+.largura {
+    width: 200px;
+}
+
+</style>
+</head>
+<body>
+    <p>  flex 1</p>
+    <div class="flex-container">
+        <div class="flex-item flex-1">1</div>
+        <div class="flex-item flex-1">222</div>
+        <div class="flex-item flex-1">333</div>
+        <div class="flex-item flex-1">456</div>
+    </div>
+
+    <p>  flex  mix </p>
+    <div class="flex-container">
+        <div class="flex-item flex-1">1</div>
+        <div class="flex-item flex-2">222</div>
+        <div class="flex-item flex-1">333</div>
+        <div class="flex-item flex-2">456</div>
+    </div>
+
+    <p>  flex  width ignorado</p>
+    <div class="flex-container">
+        <div class="flex-item flex-1 largura">1</div>
+        <div class="flex-item flex-1 largura">222</div>
+        <div class="flex-item flex-1 largura">333</div>
+        <div class="flex-item flex-1 largura">456</div>
+    </div>
+
+</body>
+</html>

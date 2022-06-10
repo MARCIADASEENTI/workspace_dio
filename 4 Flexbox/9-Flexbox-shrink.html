@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flexbox - shrink </title>
+    
+    <style>
+        .flex-container {
+           display: flex;
+            margin-bottom: 5px;
+            max-width: 900px;
+            border: 1px solid black;
+        }
+
+        .item{
+          
+            background-color: aquamarine;
+            color:black;
+            text-align: center;
+            margin: 10px;
+            font-size: 24px;
+        
+        }
+
+        .s-0 {
+            flex-shrink: 1;
+            flex-basis: 200px;
+
+        }
+
+        .s-1 {
+            flex-shrink: 1;
+            flex-basis: 100px;
+        }
+
+        .s-2 {
+            flex-shrink: 2;
+            flex-basis: 100px;
+
+        }
+
+        .s-3 {
+            flex-shrink: 3;
+            flex-basis: 100px;
+
+        }
+        .fg-0 {
+            flex-grow: 0;
+        }
+     
+        .fg-1 {
+            flex-grow: 1;
+        }
+        .fg-2 {
+            flex-grow: 2;
+        }
+        .fg-3 {
+            flex-grow: 3;
+        }
+
+</style>
+</head>
+<body>
+    <p>  flex-shrink  </p>
+
+    <div class="flex-container">
+<div class="item s-0 fg-0">00000000000000000</div>
+<div class="item s-1 fg-1">111111111111111111</div>
+<div class="item s-2 fg-2">2222222</div>
+<div class="item s-3 fg-3">33333</div>
+
+</div>
+
+
+<p>  flex-shrink 0 </p>
+<div class="flex-container">
+<div class="item s-0  fg-0">1aaaa000000</div>
+<div class="item s-1 fg-0">2ddd00000ddaaaa</div>
+<div class="item s-3 fg-0">3bbbbbbbb000000</div>
+</div>
+
+<p>  flex-shrink  1</p>
+<div class="flex-container">
+<div class="item s-0  fg-1">1000000aaaa</div>
+<div class="item s-0 fg-1">2dddddaa0000aa</div>
+<div class="item s-0 fg-1">3bbbbbbbb</div>
+</div>
+
+
+<p>  flex-shrink  s1</p>
+<div class="flex-container">
+<div class="item s-1 fg-0">1aaaa</div>
+<div class="item s-1 fg-1">2dddddaaaa</div>
+<div class="item s-1 fg-2">3bbbbbbbb</div>
+</div>
+
+<p>  flex-shrink s mix </p>
+<div class="flex-container">
+<div class="item s-0 fg-0">1aaaa</div>
+<div class="item s-1 fg-1">11111112dddddaaaa</div>
+<div class="item s-2 fg-2">3bbbbbbbb</div>
+<div class="item s-3 fg-3">3bbbbbbbb</div>
+
+</div>
+
+
+</body>
+</html>

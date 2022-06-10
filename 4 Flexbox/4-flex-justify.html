@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundametos - Flex - justify     
+    </title>
+    <style>
+.container {
+    max-width: 400px;
+    border: 1px solid rgb(43, 226, 98);
+    margin: 0;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.item {
+    background-color: rgb(255, 205, 208);
+    margin-top: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+</style>
+</head>
+<body>
+    <p> flex-start</p>
+    <section class="container flex-start">
+        <div class="item">1 um</div>
+        <div class="item">2 dois</div>
+        <div class="item">3 três</div>
+     </section>
+     <p>flex-end</p>
+     <section class="container flex-end ">
+        <div class="item">1 um</div>
+        <div class="item">2 dois</div>
+        <div class="item">3 três</div>
+     </section>
+
+     <p>flex-center</p>
+     <section class="container flex-center ">
+        <div class="item">1 um</div>
+        <div class="item">2 dois</div>
+        <div class="item">3 três</div>
+        <div class="item">2 dois</div>
+        <div class="item">3 três</div>
+
+     </section>
+
+     <p>space-between</p>
+     
+     <section class="container space-between ">
+        <div class="item">1 um</div>
+        <div class="item">2 dois</div>
+        <div class="item">3 três</div>
+        <div class="item">4 quatro</div>
+        <div class="item">5 cinco</div>
+     </section>
+
+     <p>space-around</p>
+     
+     <section class="container space-around ">
+        <div class="item">1 um</div>
+        <div class="item">2 dois</div>
+        <div class="item">3 três</div>
+        <div class="item">4 quatro</div>
+        <div class="item">5 cinco</div>
+     </section>
+
+     
+
+    </body>
+</html>
